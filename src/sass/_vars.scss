@@ -1,0 +1,41 @@
+$white: #ffffff;
+$black: #212121;
+$green: #00897b;
+$lightGreen: #e4fdf9;
+$gray: #f0f1f1;
+$blue: #3949ab;
+
+%transition{
+  transition: all .25s ease-in-out;
+}
+
+%sectionTitle{
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 22px;
+  font-size: 30px;
+}
+%sectionText{
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: 1px;
+  max-width: 630px;
+  margin: 0 auto;
+}
+%sectionSubTitle{
+  font-size: 20px;
+  line-height: 22px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+%sectionSubText{
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: 1px;
+}
+%extBtnFont{
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 22px;
+}

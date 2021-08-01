@@ -1,0 +1,45 @@
+@import "vars";
+html,
+body{
+  height: 100%;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  scroll-behavior: smooth;
+}
+
+button{
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.container{
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.container-fluid{
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 0 5px;
+}
+
+.main-btn{
+  min-width: 220px;
+  min-height: 70px;
+  background-color: $green;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 1px;
+  transition: all .25s ease-in;
+  border: 3px solid $green;
+  color: $white;
+  &:hover {
+    background-color: transparent;
+    border: 3px solid $white;
+    color: $black;
+  }
+}
